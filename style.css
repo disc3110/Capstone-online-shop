@@ -58,8 +58,24 @@
   background-color: #F4F5F6;
 }
 
+.w-20T-50M-c {
+  width: 40%;
+}
+
+.max-h-150m-190d {
+  max-height: 150px;
+}
+
 @media only screen and (min-width: 768px) {
   .w-max70-m-c {
     max-width: 70%;
+  }
+
+  .w-20T-50M-c {
+    width: 20%;
+  }
+
+  .max-h-150m-190d {
+    max-height: 190px;
   }
 }

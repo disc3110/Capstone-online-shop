@@ -1,0 +1,215 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Online Store</title>
+  </head>
+  <body>
+    <header class="bg-black-c py-3">
+      <div class="container-md d-flex justify-content-between">
+        <div class="d-flex align-items-baseline">
+          <i class="fas fa-vector-square ms-1 text-danger"></i>
+          <h6 class="GothamBold ms-1 text-white" >ZATTIX</h6>
+        </div>
+        <div class="d-flex justify-content-between">
+          <div class="d-flex align-items-baseline">
+            <i class="fas fa-home gray ms-2"></i>
+            <span class="gray ms-2">HOME</span>
+          </div>
+          <div class="d-flex align-items-baseline">
+            <i class="fas fa-vector-square gray ms-2"></i>
+            <span class="gray ms-2">COLLECTIONS</span>
+          </div>
+          <div class="d-flex align-items-baseline">
+            <i class="fas fa-shopping-cart gray ms-2"></i>
+            <span class="gray ms-2">PRCHASE LIST</span>
+          </div>
+          <div class="d-none d-md-block d-lg-block d-xl-block">
+            <button type="button" class="btn btn-danger btn-sm ms-2">POST AN AD</button>
+          </div>
+        </div>
+        <div class="d-none d-md-flex d-lg-flex d-xl-flex align-items-baseline">
+          <i class="fas fa-envelope gray ms-2"></i>
+          <span class="text-light ms-2">User name</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="bg-red-c">
+        <div class="container">
+          <div class="mx-auto pb-4 w-fit-content-c pt-5">
+            <h1 class="GothamBold text-white mx-auto w-fit-content-c">ZATTIX</h1>
+            <p class="text-white">The best board games are here</p>
+          </div>
+          <div class="d-flex pb-3">
+          <select class="form-select" name="Category">
+            <option value="" disabled selected>Category</option>
+            <option value="Strategy">Strategy</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Kids">Kids</option>
+            <option value="Family">Family</option>
+            <option value="Party">Party Game</option>
+          </select>
+          <input type="text" class="form-control" placeholder="What do you search for?">
+          <a href="index.html" class="btn btn-dark grey">Search</a>
+          </div>
+        </div>
+      </section>
+      <article class="bg-light-grey-c">
+        <div class="container-lg d-flex">
+          <div class="border-end border-secondary w-25 d-flex align-items-end flex-column">
+            <div class="pt-4 py-3">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">Used</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">New</label>
+                </div>
+              <div class="">
+                <span>Category</span>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Strategy
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Adventure
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Kids
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Family
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Party
+                </label>
+              </div>
+              <div class="">
+                <span>Number of players</span>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  1
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  2
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  3
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  4+
+                </label>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="border-end border-secondary w-75">
+            <div class="py-2 ps-1 border-bottom border-secondary">
+              <p class="gray">138 Results for <b>"Decrypto"</b></p>
+            </div>
+            <div class="">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
+                      <img class="px-1 py-1 w-25 max-h-150m-190d" src="Assets/images/product2.png" alt="">
+                      <div class="mx-1 d-flex flex-column w-75">
+                        <h5 class="fw-bold">MyPillow Products Dropped Because of Poor Sales Not Politics, Stores Say</h5>
+                        <span class="">MyPillow CEO Mike Lindell claimed several retailers were succumbing to pressure from campaigners...</span>
+                      </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <section class="d-flex justify-content-around gray">
+        <div class="p-3 w-max40-c">
+          <span class="text-center">ZATTIX</span>
+          <p class="fs-vs-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="fs-vs-c mx-1 mt-3">
+          <span class="red fw-bold border-bottom border-danger">CATEGORIES</span>
+          <ul class="list-unstyled">
+            <li><a>Strategy</a></li>
+            <li><a>Adventure</a></li>
+            <li><a>Kids</a></li>
+            <li><a>Family</a></li>
+            <li><a>Party Game</a></li>
+          </ul>
+        </div>
+        <div class="fs-vs-c mx-1 mt-3">
+          <span class="red fw-bold border-bottom border-danger">NAVEGATION</span>
+          <ul class="list-unstyled">
+            <li>Home</li>
+            <li>Sign In</li>
+            <li>Sign Up</li>
+            <li>Terms & Conditions</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <div class="fs-vs-c mx-2 d-flex flex-column justify-content-evenly">
+          <div class="d-flex">
+            <span class="me-1 red fw-bold">Country</span>
+            <span class="px-1 border border-dark"> Mexico </span>
+          </div>
+          <div class="d-flex">
+            <span class="me-1 red fw-bold">Country</span>
+            <span class="px-1 border border-dark"> Mexico </span>
+          </div>
+          <div class="d-flex">
+            <span class="me-1 red fw-bold">Country</span>
+            <span class="px-1 border border-dark"> Mexico </span>
+          </div>
+        </div>
+      </section>
+      <section class="d-flex justify-content-between ms-2 align-items-baseline">
+        <p class="gray fs-vs-c">Copyright 2015 ZATTIX. All rights Reserved. Design by Mohammed Awad</p>
+        <div class="fs-6 me-2 px-1">
+          <i class="fab fa-yahoo gray px-1"></i>
+          <i class="fab fa-google gray px-1"></i>
+          <i class="fab fa-linkedin-in gray px-1"></i>
+          <i class="fab fa-twitter gray px-1"></i>
+          <i class="fab fa-facebook-f gray px-1"></i>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
