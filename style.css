@@ -9,6 +9,14 @@
     font-style: normal;
 }
 
+body {
+  font-family: "Helvetica Neue";
+}
+
+span p {
+  font-weight: lighter;
+}
+
 .red {
   color: #d35266;
 }
@@ -69,9 +77,11 @@
 .spacingdivs div {
   padding-top: 4px;
 }
+
 @media only screen and (min-width: 576px) {
   .max-h-170m-190d {
     max-height: 170px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
