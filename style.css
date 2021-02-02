@@ -10,8 +10,13 @@
   font-style: normal;
 }
 
+a{
+  text-decoration: none;
+}
+
 body {
   font-family: "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
 }
 
 span p {
@@ -75,9 +80,19 @@ span p {
   padding-top: 4px;
 }
 
+@media only screen and (max-width: 576px) {
+  .h-sm-200px-c {
+    width: 200px;
+  }
+}
+
 @media only screen and (min-width: 576px) {
   .max-h-170m-190d {
     max-height: 170px;
+  }
+
+  .h-sm-200px-c {
+    width: 250px;
   }
 }
 
@@ -97,10 +112,18 @@ span p {
   .w-l80-m90-c {
     width: 90%;
   }
+
+  .h-sm-200px-c {
+    width: 300px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .w-l80-m90-c {
     width: 80%;
+  }
+
+  .h-sm-200px-c {
+    width: auto;
   }
 }
