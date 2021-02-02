@@ -2,7 +2,7 @@
 
 # Sneak Peaks Building with Responsive Design
 
-> This is the first Capstone project in the Microverse Program. It is based on an online shop for electronics. This project conists of two pages, the main page (search page), with a link to the results page. Each of these pages has versions for 2 different screen sizes: mobile (up to 768px) and tablet & desktop(from 768px. I used flexbox to make the page responsive and good-looking. 
+> This is the first Capstone project in the Microverse Program. It is based on an online shop for electronics. This project conists of two pages, the main page (search page), with a link to the results page. Each of these pages has versions for 2 different screen sizes: mobile (up to 768px) and tablet & desktop(from 768px) I used flexbox to make the page responsive and good-looking. 
 You can access all the design info (layouts) in this link:
 
 [https://www.behance.net/gallery/24796463/ZATTIX](https://www.behance.net/gallery/24796463/ZATTIX)
