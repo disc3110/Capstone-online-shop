@@ -1,16 +1,18 @@
 @font-face {
   font-family: 'Gotham';
-  src: url('{{ "Gotham-Bold.eot" | asset_url }}');
-  src: url('{{ "Gotham-Bold.eot" | asset_url }}#iefix') format("embedded-opentype"),
-        url('{{ "GothamBold.woff" | asset_url }}') format("woff"),
-	      url('{{ "GothamBold.woff2" | asset_url }}') format("woff2"),
-       	url('{{ "GothamBold.svg" | asset_url }}#GothamBold') format("svg");
+  src:
+    url('{{ "Gotham-Bold.eot" | asset_url }}');
+  src:
+    url('{{ "Gotham-Bold.eot" | asset_url }}#iefix') format("embedded-opentype"),
+    url('{{ "GothamBold.woff" | asset_url }}') format("woff"),
+    url('{{ "GothamBold.woff2" | asset_url }}') format("woff2"),
+    url('{{ "GothamBold.svg" | asset_url }}#GothamBold') format("svg");
     font-weight: bold;
     font-style: normal;
 }
 
 body {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 span p {
@@ -30,7 +32,7 @@ span p {
 }
 
 .GothamBold {
-  font-family: 'Gotham';
+  font-family: 'Gotham', arial;
 }
 
 .bg-black-c {
@@ -42,7 +44,7 @@ span p {
 }
 
 .w-fit-content-c {
-  width: fit-content;
+  width: intrinsic;
 }
 
 .fs-vs-c {
