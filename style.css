@@ -62,8 +62,12 @@
   width: 40%;
 }
 
-.max-h-150m-190d {
-  max-height: 150px;
+.max-h-170m-190d {
+  max-height: 170px;
+}
+
+.spacingdivs div {
+  padding-top: 4px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -77,5 +81,15 @@
 
   .max-h-150m-190d {
     max-height: 190px;
+  }
+
+  .w-l80-m90-c {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .w-l80-m90-c {
+    width: 80%;
   }
 }
