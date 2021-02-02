@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'Gotham';
-  src: 	url('{{ "Gotham-Bold.eot" | asset_url }}');
-  src: 	url('{{ "Gotham-Bold.eot" | asset_url }}#iefix') format("embedded-opentype"),
-      	url('{{ "GothamBold.woff" | asset_url }}') format("woff"),
-	url('{{ "GothamBold.woff2" | asset_url }}') format("woff2"),
-     	url('{{ "GothamBold.svg" | asset_url }}#GothamBold') format("svg");
-        font-weight: bold;
-        font-style: normal;
+  src: url('{{ "Gotham-Bold.eot" | asset_url }}');
+  src: url('{{ "Gotham-Bold.eot" | asset_url }}#iefix') format("embedded-opentype"),
+        url('{{ "GothamBold.woff" | asset_url }}') format("woff"),
+	      url('{{ "GothamBold.woff2" | asset_url }}') format("woff2"),
+       	url('{{ "GothamBold.svg" | asset_url }}#GothamBold') format("svg");
+    font-weight: bold;
+    font-style: normal;
 }
 
 .red {
-  color: #D35266;
+  color: #d35266;
 }
 
 .gray {
-  color: #888888;
+  color: #888;
 }
 
 .black {
@@ -30,7 +30,7 @@
 }
 
 .bg-red-c {
-  background-color: #D35266;
+  background-color: #d35266;
 }
 
 .w-fit-content-c {
@@ -46,16 +46,16 @@
 }
 
 .fa-rounded-c {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
 }
 
 .bg-light-grey-c {
-  background-color: #F4F5F6;
+  background-color: #f4f5f6;
 }
 
 .w-20T-50M-c {
