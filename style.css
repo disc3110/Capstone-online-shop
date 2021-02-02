@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Gotham';
+  src: 	url('{{ "Gotham-Bold.eot" | asset_url }}');
+  src: 	url('{{ "Gotham-Bold.eot" | asset_url }}#iefix') format("embedded-opentype"),
+      	url('{{ "GothamBold.woff" | asset_url }}') format("woff"),
+	url('{{ "GothamBold.woff2" | asset_url }}') format("woff2"),
+     	url('{{ "GothamBold.svg" | asset_url }}#GothamBold') format("svg");
+        font-weight: bold;
+        font-style: normal;
+}
+
+.red {
+  color: #D35266;
+}
+
+.gray {
+  color: #888888;
+}
+
+.black {
+  color: #383838;
+}
+
+.GothamBold {
+  font-family: 'Gotham';
+}
+
+.bg-black-c {
+  background-color: #383838;
+}
+
+.bg-red-c {
+  background-color: #D35266;
+}
+
+.w-fit-content-c {
+  width: fit-content;
+}
+
+.fs-vs-c {
+  font-size: 12px;
+}
+
+.w-max40-c {
+  max-width: 40%;
+}
+
+.fa-rounded-c {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+@media only screen and (min-width: 768px) {
+  .w-max70-m-c {
+    max-width: 70%;
+  }
+}
