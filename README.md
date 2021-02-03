@@ -9,7 +9,7 @@ You can access all the design info (layouts) in this link:
 
 Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
-![screenshot](Images/screenshot.png)
+![screenshot](Assets/images/examplepage.png)
 
 -FlexBox
 -Floats
@@ -29,9 +29,9 @@ Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 [Live Demo Link](https://disc3110.github.io/Capstone-online-shop/)
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@disc3110](https://github.com/disc3110)
 - Twitter: [@disc3110](https://twitter.com/disc3110)
