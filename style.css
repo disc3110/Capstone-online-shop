@@ -19,6 +19,10 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  font-size: 12px;
+}
+
 span p {
   font-weight: lighter;
 }
@@ -99,10 +103,6 @@ span p {
 
 .w-50s-25mh-c {
   width: 50%;
-}
-
-p {
-  font-size: 12px;
 }
 
 .form-check-label {
