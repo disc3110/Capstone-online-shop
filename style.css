@@ -23,6 +23,10 @@ span p {
   font-weight: lighter;
 }
 
+.bg-cube {
+  background-image: url('Assets/images/backgroundcu.jpg');
+}
+
 .red {
   color: #d35266;
 }
