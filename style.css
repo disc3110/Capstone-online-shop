@@ -89,6 +89,10 @@ span p {
   z-index: 1;
 }
 
+.w-max70-m-c {
+    width: 70%;
+}
+
 @media only screen and (max-width: 576px) {
   .h-sm-200px-c {
     width: 200px;
