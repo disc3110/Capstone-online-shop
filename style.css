@@ -93,10 +93,20 @@ span p {
   width: 70%;
 }
 
-@media only screen and (max-width: 576px) {
-  .h-sm-200px-c {
-    width: 200px;
-  }
+.h-sm-200px-c {
+  width: 130px;
+}
+
+.w-50s-25mh-c {
+  width: 50%;
+}
+
+p {
+  font-size: 12px;
+}
+
+.form-check-label {
+  font-size: 11px;
 }
 
 @media only screen and (min-width: 576px) {
@@ -106,6 +116,18 @@ span p {
 
   .h-sm-200px-c {
     width: 250px;
+  }
+
+  .w-50s-25mh-c {
+    width: 25%;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .form-check-label {
+    font-size: 13px;
   }
 }
 
