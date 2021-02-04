@@ -9,7 +9,8 @@ You can access all the design info (layouts) in this link:
 
 Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
-![screenshot](Assets/images/examplepage.PNG)
+![screenshot](Assets/images/screenshot.png)
+![screenshot](Assets/images/screenshot1.png)
 
 -FlexBox
 -Floats
