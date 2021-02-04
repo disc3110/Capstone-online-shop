@@ -17,28 +17,28 @@
   </head>
   <body>
     <header class="bg-black-c py-3">
-      <div class="container-md d-flex justify-content-between">
+      <nav class="container-md d-flex justify-content-between">
         <div class="d-flex align-items-baseline">
           <i class="fas fa-vector-square ms-1 text-danger"></i>
           <h6 class="GothamBold ms-1 text-white" >Dice Roller</h6>
         </div>
         <div class="d-flex justify-content-between">
           <div class="d-flex align-items-baseline">
-            <a href="#">
+            <a href="index.html" class="text-center">
               <i class="fas fa-home gray ms-2"></i>
-              <span class="gray ms-2">HOME</span>
+              <span class="gray ms-2 fs-vs-c">HOME</span>
             </a>
           </div>
           <div class="d-flex align-items-baseline d-none d-sm-block">
-            <a href="#">
+            <a href="#" class="text-center">
               <i class="fas fa-vector-square gray ms-2"></i>
-              <span class="gray ms-2">COLLECTIONS</span>
+              <span class="gray ms-2 fs-vs-c">COLLECTIONS</span>
             </a>
           </div>
           <div class="d-flex align-items-baseline">
-            <a href="#">
+            <a href="#" class="text-center">
               <i class="fas fa-shopping-cart gray ms-2"></i>
-              <span class="gray ms-2">PURCHASE LIST</span>
+              <span class="gray ms-2 fs-vs-c">PURCHASE LIST</span>
             </a>
           </div>
           <div class="d-none d-md-block d-lg-block d-xl-block">
@@ -49,7 +49,7 @@
           <i class="fas fa-envelope gray ms-2"></i>
           <span class="text-light ms-2">User name</span>
         </div>
-      </div>
+      </nav>
     </header>
     <main>
       <section class="bg-cube">
@@ -74,7 +74,7 @@
       </section>
       <article class="bg-light-grey-c">
         <div class="container-lg d-flex">
-          <div class="border-end border-secondary w-25 d-flex align-items-end flex-column mb-5">
+          <div class="w-25 d-none d-sm-flex align-items-end flex-column mb-5">
             <div class="pt-4 py-3 spacingdivs">
                 <div class="form-check form-check-inline mt-3">
                   <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
@@ -148,7 +148,7 @@
 
 
           </div>
-          <div class="border-end border-secondary w-75 mb-5">
+          <div class="border-end border-secondary border-start w-75sm-100xs mb-5">
             <div class="py-2 ps-1 border-bottom border-secondary">
               <p class="gray">138 Results for <b>"Decrypto"</b></p>
             </div>
@@ -244,52 +244,79 @@
     <footer>
       <section class="d-flex justify-content-around gray">
         <div class="p-3 w-max40-c d-none d-sm-block">
-          <span class="text-center">Dice Roller</span>
+          <span class="text-center GothamBold">Dice Roller</span>
           <p class="fs-vs-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
         <div class="fs-vs-c mx-1 mt-3">
           <span class="red fw-bold border-bottom border-danger">CATEGORIES</span>
           <ul class="list-unstyled">
-            <li><a>Strategy</a></li>
-            <li><a>Adventure</a></li>
-            <li><a>Kids</a></li>
-            <li><a>Family</a></li>
-            <li><a>Party Game</a></li>
+            <li><a class="gray" href="#">Strategy</a></li>
+            <li><a class="gray" href="#">Adventure</a></li>
+            <li><a class="gray" href="#">Kids</a></li>
+            <li><a class="gray" href="#">Family</a></li>
+            <li><a class="gray" href="#">Party Game</a></li>
           </ul>
         </div>
         <div class="fs-vs-c mx-1 mt-3">
           <span class="red fw-bold border-bottom border-danger">NAVEGATION</span>
           <ul class="list-unstyled">
-            <li>Home</li>
-            <li>Sign In</li>
-            <li>Sign Up</li>
-            <li>Terms & Conditions</li>
-            <li>FAQ</li>
+            <a class="gray" href="index.html"><li>Home</li></a>
+            <a class="gray" href="#"><li>Sign In</li></a>
+            <a class="gray" href="#"><li>Sign Up</li></a>
+            <a class="gray" href="#"><li>Terms & Conditions</li></a>
+            <a class="gray" href="#"><li>FAQ</li></a>
           </ul>
         </div>
         <div class="fs-vs-c mx-2 d-flex flex-column justify-content-evenly align-items-end">
           <div class="d-flex">
             <span class="me-1 red fw-bold">Country</span>
-            <span class="px-1 border border-dark"> Mexico </span>
+            <div class="dropdown">
+              <button class="btn px-1 border border-dark dropdown-toggle fs-vs-c py-0 gray" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                U.S.
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Mexico</a></li>
+                <li><a class="dropdown-item" href="#">U.S.</a></li>
+                <li><a class="dropdown-item" href="#">Canada</a></li>
+              </ul>
+            </div>
           </div>
           <div class="d-flex">
             <span class="me-1 red fw-bold">Language</span>
-            <span class="px-1 border border-dark"> English </span>
+            <div class="dropdown">
+              <button class="btn px-1 border border-dark dropdown-toggle fs-vs-c py-0 gray" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                English
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">Spanish</a></li>
+                <li><a class="dropdown-item" href="#">French</a></li>
+              </ul>
+            </div>
           </div>
           <div class="d-flex">
             <span class="me-1 red fw-bold">Time Zone</span>
-            <span class="px-1 border border-dark"> GMT-6 </span>
+            <div class="dropdown">
+              <button class="btn px-1 border border-dark dropdown-toggle fs-vs-c py-0 gray" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                GMT-6
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">GMT-5</a></li>
+                <li><a class="dropdown-item" href="#">GMT-7</a></li>
+                <li><a class="dropdown-item" href="#">GMT-8</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
       <section class="d-flex justify-content-between ms-2 align-items-baseline">
         <p class="gray fs-vs-c">Copyright 2015 ZATTIX. All rights Reserved. Design by Mohammed Awad</p>
         <div class="fs-6 me-2 px-1">
-          <i class="fab fa-yahoo gray px-1"></i>
-          <i class="fab fa-google gray px-1"></i>
-          <i class="fab fa-linkedin-in gray px-1"></i>
-          <i class="fab fa-twitter gray px-1"></i>
-          <i class="fab fa-facebook-f gray px-1"></i>
+          <a class="gray" href="#"><i class="fab fa-yahoo gray px-1"></i></a>
+          <a class="gray" href="#"><i class="fab fa-google gray px-1"></i></a>
+          <a class="gray" href="#"><i class="fab fa-linkedin-in gray px-1"></i></a>
+          <a class="gray" href="#"><i class="fab fa-twitter gray px-1"></i></a>
+          <a class="gray" href="#"><i class="fab fa-facebook-f gray px-1"></i></a>
         </div>
       </section>
     </footer>

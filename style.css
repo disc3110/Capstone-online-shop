@@ -10,10 +10,6 @@
   font-style: normal;
 }
 
-a {
-  text-decoration: none;
-}
-
 body {
   font-family: "Helvetica Neue", sans-serif;
   overflow-x: hidden;
@@ -25,6 +21,10 @@ p {
 
 span p {
   font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
 }
 
 .bg-cube {
@@ -67,9 +67,6 @@ span p {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  display: inline-flex;
 }
 
 .bg-light-grey-c {
@@ -109,6 +106,10 @@ span p {
   font-size: 11px;
 }
 
+.w-75sm-100xs {
+  width: 100%;
+}
+
 @media only screen and (min-width: 576px) {
   .max-h-170m-190d {
     max-height: 170px;
@@ -128,6 +129,10 @@ span p {
 
   .form-check-label {
     font-size: 13px;
+  }
+
+  .w-75sm-100xs{
+    width: 75%;
   }
 }
 
