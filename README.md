@@ -42,7 +42,7 @@ Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/disc3110/Capstone-online-shop/issues).
 
 ## Show your support
 
