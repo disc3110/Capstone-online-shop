@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('{{ "Gotham-Bold.eot" | asset_url }}');
+  src:
+    url('{{ "Gotham-Bold.eot" | asset_url }}#iefix') format("embedded-opentype"),
+    url('{{ "GothamBold.woff" | asset_url }}') format("woff"),
+    url('{{ "GothamBold.woff2" | asset_url }}') format("woff2"),
+    url('{{ "GothamBold.svg" | asset_url }}#GothamBold') format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 12px;
+}
+
+span p {
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-cube {
+  background-image: url('Assets/images/backgroundcu.jpg');
+}
+
+.red {
+  color: #d35266;
+}
+
+.gray {
+  color: #888;
+}
+
+.black {
+  color: #383838;
+}
+
+.GothamBold {
+  font-family: 'Gotham', arial, sans-serif;
+}
+
+.bg-black-c {
+  background-color: #383838;
+}
+
+.bg-red-c {
+  background-color: #d35266;
+}
+
+.fs-vs-c {
+  font-size: 12px;
+}
+
+.w-max40-c {
+  max-width: 40%;
+}
+
+.fa-rounded-c {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.bg-light-grey-c {
+  background-color: #f4f5f6;
+}
+
+.w-20T-50M-c {
+  width: 40%;
+}
+
+.max-h-170m-190d {
+  max-height: 140px;
+}
+
+.spacingdivs div {
+  padding-top: 4px;
+}
+
+.position-a-zindex-1 {
+  position: absolute;
+  z-index: 1;
+}
+
+.w-max70-m-c {
+  width: 70%;
+}
+
+.h-sm-200px-c {
+  width: 130px;
+}
+
+.w-50s-25mh-c {
+  width: 50%;
+}
+
+.form-check-label {
+  font-size: 11px;
+}
+
+.w-75sm-100xs {
+  width: 100%;
+}
+
+@media only screen and (min-width: 576px) {
+  .max-h-170m-190d {
+    max-height: 170px;
+  }
+
+  .h-sm-200px-c {
+    width: 250px;
+  }
+
+  .w-50s-25mh-c {
+    width: 25%;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .form-check-label {
+    font-size: 13px;
+  }
+
+  .w-75sm-100xs {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .w-max70-m-c {
+    max-width: 70%;
+  }
+
+  .w-20T-50M-c {
+    width: 20%;
+  }
+
+  .max-h-170m-190d {
+    max-height: 190px;
+  }
+
+  .w-l80-m90-c {
+    width: 90%;
+  }
+
+  .h-sm-200px-c {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .w-l80-m90-c {
+    width: 80%;
+  }
+
+  .h-sm-200px-c {
+    width: auto;
+  }
+}
